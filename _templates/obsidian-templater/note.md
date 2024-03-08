@@ -2,13 +2,13 @@
 tags:
   - type/note
   - category/note
-created: {{date}}T{{time}}
-modified:
+created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
+modified: 
 template-type: note
 template-version: 1.1
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Abstract
 <!-- Introduction to what this note is about -->

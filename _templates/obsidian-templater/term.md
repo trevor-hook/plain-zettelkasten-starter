@@ -3,12 +3,12 @@ tags:
   - type/note
   - category/term
   - incomplete
-created: {{date}}T{{time}}
+created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
 template-type: term
 template-version: 1.1
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 <!-- Term definition and source from frontmatter goes here. Also used for Dataview glossary. -->
 

@@ -4,7 +4,8 @@ tags:
   - category/person
   - incomplete
 <!-- use tags in the form of role/friend role/actor to help define the role the person has -->
-created: {{date}}T{{time}}
+created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
+modified: 
 template-type: person
 template-version: 1.1
 ---

@@ -3,13 +3,13 @@ tags:
   - type/note
   - category/meeting
   - incomplete
-created: {{date}}T{{time}}
+created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
 modified: 
 template-type: meeting
 template-version: 1.1
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Time and Place
 <!-- With starting and ending times -->

@@ -3,17 +3,17 @@ tags:
   - type/note
   - category/log
   - incomplete
-created: {{date}}T{{time}}
+created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
 modified: 
 template-type: log
 template-vesion: 1.1
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## When and Where
 
-- Start:: {{date}} {{time}}
+- Start:: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 - End::
 - Location:: 
 
