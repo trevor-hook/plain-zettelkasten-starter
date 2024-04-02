@@ -2,18 +2,18 @@
 tags:
   - incomplete
   - type/note
-  - category/person
-<!-- use tags in the form of role/friend role/actor to help define the role the person has -->
+  - category/organisation
+<!-- use tags in the form of theme/company theme/retail to help define type of organisation -->
 created: <% tp.date.now("YYYY-MM-DDTHH:mm") %>
 modified: 
-template-type: person
-template-version: 3
+template-type: organisation
+template-version: 1
 ---
 
 # <% tp.file.title %>
 
-##  Bio
-<!-- Short biography of the PERSON -->
+##  Abstract
+<!-- Short abstract of the ORGANISATION -->
 
 ## Contact
 <!-- List various contact details -->
@@ -24,10 +24,6 @@ template-version: 3
 <!-- The main content of my thoughts really -->
 - N/A
 
-
-## Quotes
-<!-- Notable quotes with reference to their page or location -->
-- N/A
 
 ---
 ## Questions

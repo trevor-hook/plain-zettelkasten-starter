@@ -1,12 +1,12 @@
 ---
 tags:
+  - incomplete
   - type/note
   - category/person
-  - incomplete
 <!-- use tags in the form of role/friend role/actor to help define the role the person has -->
 created: {{date}}T{{time}}
 template-type: person
-template-version: 1.1
+template-version: 3
 ---
 
 # {{title}}
